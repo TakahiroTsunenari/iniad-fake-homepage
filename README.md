@@ -1,2 +1,2 @@
-URLは下記。
+URLはこちら。
 https://takahirotsunenari.github.io/iniad-fake-homepage/
