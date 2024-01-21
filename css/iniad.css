@@ -1,23 +1,24 @@
 body {
   background-color: #ffffff;
-  color: #FE4261;
+  color: black;
 }
 
 h1 {
   font-size: 24px;
+  color:#182c5b;
   text-align: center;
 }
 
 h2 {
   font-size: 20px;
-  color: #000000;
-  border-bottom: solid 1px #cc0000;
+  color: #182c5b;
+  border-bottom: 2mm ridge rgba(0, 81, 255, 0.753); 
 }
 
 h3 {
   font-size: 18px;
   padding-left: 4px;
-  border-left: solid 4px #cc0000;
+  border-left: solid 4px #182c5b;
 }
 
 #schedule {
@@ -26,12 +27,12 @@ h3 {
 }
 
 .iniad {
-  color: #00cc00;
+  color:#182c5b;
 }
 
 .time {
   font-weight: bold;
-  color: #cc0000;
+  color: #182c5b;
   font-size: 18px;
 }
 
