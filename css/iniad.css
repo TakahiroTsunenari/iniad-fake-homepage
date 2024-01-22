@@ -21,11 +21,6 @@ h3 {
   border-left: solid 4px #182c5b;
 }
 
-#schedule {
-  padding: 10px 20px 10px 20px;
-  background-color: #cccccc;
-}
-
 .iniad {
   color:#182c5b;
 }
@@ -39,4 +34,8 @@ h3 {
 .map > iframe {
   width: 40%;
   height: 300px;
+}
+
+.access {
+  color: #182c5b;
 }
