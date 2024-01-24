@@ -98,3 +98,57 @@ footer {
 	text-align: center;
 }
 /*追加分*/
+.tab {
+	display: flex;
+	justify-content: flex-end;
+}
+.tab a {
+	font-family: 'kanit', sans-serif;
+	font-size: 20px;
+	color: #333333;
+	padding: 0px 5px;
+}
+.tab a:hover {
+	font-weight: bold;
+}
+/* 文字 */
+.text p {
+	text-align: center;
+}
+.univ-name {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 100px;
+	color: #333333;
+}
+.univ {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 50px;
+	color: #333333;
+}
+.open-campus {
+	font-family: 'Kanit', sans-serif;
+	font-size: 30px;
+	color: #333333;
+	font-weight: 700;
+}
+.guide {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 100px;
+	color: #333333;
+}
+.location {
+	font-family: 'Kanit', sans-serif;
+	font-size: 30px;
+	color: #333333;
+	font-weight: 700;
+}
+.campus {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	color: #333333;
+}
+.akaban {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	color: #333333;
+}  
