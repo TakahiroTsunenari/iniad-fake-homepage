@@ -3,9 +3,9 @@
 const signagePages = ['index.html','map.html'];
 
 // 次のページに切り替わるまでの秒数
-const timeoutSeconds = 5;
+const timeoutSeconds = 15;
 
-const currentPage = location.pathname.split('/')[2];
+const currentPage = location.pathname.split('/').slice(-1)[0];
 const nextPageIndex = signagePages.indexOf(currentPage)+1;
 const numberOfPages = signagePages.length;
 let nextPage = '';
