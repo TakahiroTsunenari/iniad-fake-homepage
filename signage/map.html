@@ -37,7 +37,7 @@
 
    <h2>Campus Map</h2>
 
-   <!-- モーダルを開くためのボタン -->
+   <!-- mapモーダルを開くためのボタン -->
    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
     INIAD HUB-1 Floor Map
    </button>
@@ -51,7 +51,7 @@
           <span aria-hidden="true">&times;</span>
         </div>
         <div class="modal-body">
-          <!-- モーダル内に表示する画像 -->
+          <!-- floormapの内容-->
           <img src="img/map2.png" alt="Floor-Map" class="img-responsive">
         </div>
         <div class="modal-footer">
@@ -59,6 +59,32 @@
       </div>
     </div>
   </div>
+
+  <!-- 追加するモーダルを開くためのボタン -->
+<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#newModal">
+  Today's Program
+</button>
+
+<!-- 追加する新しいモーダル -->
+<div class="modal fade" id="newModal" tabindex="-1" aria-labelledby="newModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="newModalLabel"></h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- プログラムの画像 -->
+        <img src="img/Program.png" alt="today's-Program" class="img-responsive">
+      </div>
+      <div class="modal-footer">
+        <!-- 追加モーダルのフッターに配置するボタンやテキスト等 -->
+      </div>
+    </div>
+  </div>
+</div>
 
    <div class="campus">
     <img src="img/map1.png"width="700" height="1200">
