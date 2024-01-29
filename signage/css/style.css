@@ -114,43 +114,37 @@ footer {
 /* 文字 */
 .text p {
 	text-align: center;
+	color: #ffffff;
 }
 .univ-name {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 100px;
-	color: #333333;
 }
 .univ {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 50px;
-	color: #333333;
 }
 .open-campus {
 	font-family: 'Kanit', sans-serif;
 	font-size: 30px;
-	color: #333333;
 	font-weight: 700;
 }
 .guide {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 100px;
-	color: #333333;
 }
 .location {
 	font-family: 'Kanit', sans-serif;
 	font-size: 30px;
-	color: #333333;
 	font-weight: 700;
 }
 .campus {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 30px;
-	color: #333333;
 }
 .akaban {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
-	color: #333333;
 }  
 
 	
