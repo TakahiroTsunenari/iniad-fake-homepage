@@ -111,13 +111,6 @@ footer {
 .tab a:hover {
 	font-weight: bold;
 }
-/* エフェクト */
-#hoge{
-	width:1000px;
-	height:500px;
-	margin:0 auto;
-	background-color:#000;
-  }
 
 /* 文字 */
 .text p {
