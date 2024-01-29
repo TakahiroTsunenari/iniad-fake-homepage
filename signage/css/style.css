@@ -113,39 +113,75 @@ footer {
 }
 
 /* 文字 */
+.text {
+	position: relative;
+}
+
 .text p {
 	text-align: center;
 	color: #ffffff;
+
 }
 .univ-name {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 100px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
 }
 .univ {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 50px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,130px);
 }
 .open-campus {
 	font-family: 'Kanit', sans-serif;
 	font-size: 30px;
 	font-weight: 700;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,200px);
 }
 .guide {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 100px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,230px);
 }
 .location {
 	font-family: 'Kanit', sans-serif;
 	font-size: 30px;
 	font-weight: 700;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,350px);
 }
 .campus {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 30px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,400px);
 }
 .akabane {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,450px);
 }  
 
+/* ---- particles.js container ---- */
+
+#particles-js{
+	width: 100%;
+	height: 100%;
+	background-image: url('');
+	background-size:cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+  }
 	
