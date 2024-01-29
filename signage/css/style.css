@@ -105,12 +105,20 @@ footer {
 .tab a {
 	font-family: 'kanit', sans-serif;
 	font-size: 20px;
-	color: #333333;
+	color: #ffffff;
 	padding: 0px 5px;
 }
 .tab a:hover {
 	font-weight: bold;
 }
+/* エフェクト */
+#hoge{
+	width:1000px;
+	height:500px;
+	margin:0 auto;
+	background-color:#000;
+  }
+
 /* 文字 */
 .text p {
 	text-align: center;
@@ -142,7 +150,7 @@ footer {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 30px;
 }
-.akaban {
+.akabane {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
 }  
